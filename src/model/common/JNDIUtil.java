@@ -6,7 +6,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
-public class JNDIUtil {
+public class JNDIUtil { 
 	public static Connection getConnection() {
 		Connection conn = null;
 		Context initContext;

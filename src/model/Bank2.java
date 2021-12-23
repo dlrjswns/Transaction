@@ -9,7 +9,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
-public class Bank2 {
+public class Bank2 { 
 	private int bid;
 	private String name;
 	private int balance;

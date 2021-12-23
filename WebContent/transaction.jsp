@@ -9,7 +9,7 @@
 			out.println("<script>alert('이체성공!');</script>");
 		}
 		else{
-			out.println("<script>alert('이체실패! 잔액을 확인해보세요!!!');</script>");
+			out.println("<script>alert('이체실패! 잔액을 확인해보세요!!!');</script>"); 
 		}
 	}
 
