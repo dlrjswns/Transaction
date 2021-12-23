@@ -43,7 +43,7 @@ public class Bank1 {
 		try {
 			Context initContext = new InitialContext();
 			Context envContext = (Context)initContext.lookup("java:/comp/env");
-			DataSource ds = (DataSource)envContext.lookup("jdbc/orcl");
+			DataSource ds = (DataSource)envContext.lookup("jdbc/orcl"); //
 			conn = ds.getConnection();
 		} catch (Exception e) {
 			e.printStackTrace();
